@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookstore</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="main">
+            <header>
+                <div class="svg-dots">
+                    <svg width='10' height='10' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'><circle cx='5' cy='5' r='5' fill='#e76847' /></svg>
+                    <svg width='10' height='10' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'><circle cx='5' cy='5' r='5' fill='#fabf00' /></svg>
+                    <svg width='10' height='10' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'><circle cx='5' cy='5' r='5' fill='#52bea6' /></svg>
+                </div>
+                <h1><i class="fa fa-book" aria-hidden="true"></i>MyBookApp</h1><!--
+                --><ul>
+                    <li><a href="#">Help Center</a></li><!-- 
+                --><li><a href="#">Our Support</a></li><!--
+--><li><a href="#"><img src="images/avatar.png" alt="avatar" height="32" width="32" /><span>Jon Doe</span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="12" height="12" viewBox="0 0 16 16" fill="#fff">
+<path d="M0,8c0,4.4,3.6,8,8,8s8-3.6,8-8s-3.6-8-8-8S0,3.6,0,8z M11.6,5.2L13,6.599l-5,5l-5-5L4.4,5.2L8,8.8L11.6,5.2
+	z"/></svg></a></li><!--
+                --></ul>
+            </header><!--
+               --><div class="center"><!--
+                --><aside><!--
+                --><div class="main-button">
+                            <a href="#"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="16" height="16" viewBox="0 0 10 10"><path d="M9.801,3.835C9.669,3.703,9.507,3.636,9.318,3.636H6.364V0.682c0-0.189-0.066-0.35-0.199-0.483C6.032,0.066,5.871,0,5.682,0H4.318c-0.189,0-0.35,0.066-0.483,0.199S3.636,0.492,3.636,0.682v2.955H0.682c-0.189,0-0.35,0.066-0.483,0.199C0.066,3.968,0,4.129,0,4.318v1.364c0,0.19,0.066,0.35,0.199,0.483	c0.133,0.133,0.294,0.199,0.483,0.199h2.955v2.955c0,0.189,0.066,0.35,0.199,0.483C3.968,9.934,4.129,10,4.318,10h1.364c0.189,0,0.35-0.066,0.483-0.199c0.133-0.133,0.199-0.294,0.199-0.483V6.364h2.955c0.19,0,0.35-0.066,0.483-0.199C9.934,6.032,10,5.871,10,5.682V4.318C10,4.129,9.934,3.968,9.801,3.835z"/></svg>ADD A BOOK</a>
+                    </div>
+                    <nav>
+                        <ul id="navigation">
+                            <li><a href="#">Now Reading</a></li>
+                            <li><a href="#">Browse</a></li>
+                            <li><a href="#">Buy Books</a></li>
+                            <li><a href="#">Favorite Books</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">History</a></li>
+                        </ul>
+                        <ul id="point">
+                            <li><a href="#">Must Read Titles</a></li>
+                            <li><a href="#">Best Of List</a></li>
+                            <li><a href="#">Classic Novels</a></li>
+                            <li><a href="#">Non Fiction</a></li>
+                        </ul>
+                        <ul id="combine">
+                            <li>You added<span>Figth Club</span>by<span>Chuck Palahniuk</span>to your<span>Must Read Titles</span>.<br />24 minutes ago</li>
+                            <li>You added<span>The Trial</span>by<span>Franz Kafka</span>to your<span>Must Read Titles</span>.<br />48 minutes ago</li>
+                        </ul>
+                    </nav>
+                </aside><!--
+            --><div class="books-navigation">
+                    <div class="nav-inside">
+                        <h4>Browse Available Books</h4>
+                        <ul>
+                            <li><a href="#">All Books</a></li><!--
+                            --><li><a href="#">Most Recent</a></li><!--
+                            --><li><a href="#">Most Popular</a></li><!--
+                            --><li><a href="#">Free Books</a></li>
+                        </ul>
+                        <form>
+                            <input type="search" name="search" value placeholder="Enter Keywords" />
+                            <label>
+                            <input type="submit" />
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0"
+	 width="14" height="14" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
+	<path d="M97.777,86.899L77.164,66.287c4.968-7.171,7.453-15.165,7.453-23.978c0-5.729-1.112-11.208-3.337-16.436
+		c-2.223-5.229-5.228-9.736-9.014-13.522c-3.786-3.786-8.292-6.791-13.52-9.014C53.516,1.112,48.037,0,42.308,0
+		C36.579,0,31.1,1.112,25.872,3.336c-5.229,2.223-9.736,5.228-13.522,9.014c-3.786,3.786-6.791,8.294-9.015,13.522
+		C1.112,31.101,0,36.579,0,42.308c0,5.729,1.112,11.206,3.335,16.436c2.223,5.228,5.228,9.734,9.015,13.521
+		c3.786,3.787,8.294,6.791,13.522,9.016c5.229,2.223,10.707,3.335,16.436,3.335c8.815,0,16.808-2.485,23.979-7.452L86.9,97.715
+		c1.442,1.522,3.243,2.284,5.408,2.284c2.083,0,3.887-0.761,5.408-2.284C99.238,96.193,100,94.39,100,92.307
+		C100.001,90.185,99.26,88.381,97.777,86.899z M61.329,61.327c-5.268,5.269-11.608,7.904-19.021,7.904
+		c-7.411,0-13.751-2.635-19.02-7.904c-5.269-5.268-7.903-11.607-7.903-19.02c0-7.411,2.635-13.752,7.903-19.02
+		c5.268-5.269,11.608-7.903,19.02-7.903c7.412,0,13.751,2.635,19.021,7.903c5.269,5.268,7.903,11.608,7.903,19.02
+		C69.232,49.72,66.597,56.059,61.329,61.327z"/>
+</svg>
+
+                            </label>
+                            </form>
+                            </div>
+                <div class="books">
+                    <a href="#"><div class="book">
+                            <img src="images/book_01.jpg" alt="Jewels of Nizam" width="200" height="275" />
+                            <h2>Jewels of Nizam</h2>
+                            <h3>by Geeta Devi</h3>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                        </div></a><!--
+                    --><a href="#"><div class="book">
+                            <img src="images/book_02.jpg" alt="Jewels of Nizam" width="200" height="275" />
+                            <h2>Cakes &amp; Bakes</h2>
+                            <h3>by Sanjeev Kapoor</h3>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                        </div></a><!--
+                    --><a href="#"><div class="book">
+                            <img src="images/book_03.jpg" alt="Jamie’s Kitchen" width="200" height="275" />
+                            <h2>Jamie’s Kitchen</h2>
+                            <h3>by Jamie Oliver</h3>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+                        </div></a><!--
+                    --><a href="#"><div class="book">
+                            <img src="images/book_04.jpg" alt="Inexpensive Family Meals" width="200" height="275" /><h2>Inexpensive Family Meals</h2>
+                            <h3>by Simon Holst</h3>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                        </div></a><!--
+                    --><a href="#"><div class="book">
+                            <img src="images/book_05.jpg" alt="Paleo Slow Cooking" width="200" height="275" />
+                            <h2>Paleo Slow Cooking</h2>
+                            <h3>by Chrissy Gower</h3>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+                        </div></a><!--
+                    --><a href="#"><div class="book">
+                            <img src="images/book_06.jpg" alt="Cook Like an Italian" width="200" height="275" /><h2>Cook Like an Italian</h2>
+                            <h3>by Tobie Puttock</h3>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                        </div></a><!--
+                    --><a href="#"><div class="book">
+                            <img src="images/book_07.jpg" alt="Suneeta Vaswani" width="200" height="275" />
+                            <h2>Suneeta Vaswani</h2>
+                            <h3>by Geeta Devi</h3>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                        </div></a><!--
+                    --><a href="#"><div class="book">
+                            <img src="images/book_08.jpg" alt="Jamie Does" width="200" height="275" />
+                            <h2>Jamie Does</h2>
+                            <h3>by Jamie Oliver</h3>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                        </div></a><!--
+                    --><a href="#"><div class="book">
+                            <img src="images/book_09.jpg" alt="Jamie’s italy" width="200" height="275" />
+                            <h2>Jamie’s italy</h2>
+                            <h3>by Jamie Oliver</h3>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                        </div></a><!--
+                    --><a href="#"><div class="book">
+                            <img src="images/book_10.jpg" alt="Vegetables Cookbook" width="200" height="275" /><h2>Vegetables Cookbook</h2>
+                            <h3>by Matthew Biggs</h3>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i>
+                        </div></a>
+                </div>
+            </div>
+        </div><!--
+            --><footer>
+                <ul>
+                    <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i></a></li><!-- 
+                --><li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i></a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
